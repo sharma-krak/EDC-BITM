@@ -485,10 +485,6 @@ export default function RecruitmentPage() {
                       }}
                     />
                   </label>
-                  <p className="text-xs leading-5 text-white/45">
-                    This is a frontend-only form preview. Submissions are not
-                    stored or sent anywhere until a backend is connected.
-                  </p>
                 </div>
 
                 {submissionError && (
@@ -508,6 +504,27 @@ export default function RecruitmentPage() {
                     className="transition-transform group-hover:translate-x-1"
                   />
                 </button>
+                <p className="flex flex-wrap gap-x-4 gap-y-1 text-sm leading-6 text-white/75">
+                  <span>For any queries, contact:</span>
+                  <span>
+                    <span className="text-[#FED853]">Aditya</span> -{" "}
+                    <a className="text-[#FED853]" href="tel:9431395582">
+                      9431395582
+                    </a>
+                  </span>
+                  <span>
+                    <span className="text-[#FED853]">Hamza</span> -{" "}
+                    <a className="text-[#FED853]" href="tel:7209125127">
+                      7209125127
+                    </a>
+                  </span>
+                  <span>
+                    <span className="text-[#FED853]">Arpit</span> -{" "}
+                    <a className="text-[#FED853]" href="tel:9334533611">
+                      9334533611
+                    </a>
+                  </span>
+                </p>
           </form>
         </div>
       </section>
