@@ -244,7 +244,7 @@ export default function RecruitmentPage() {
 
           <a
             href="#application"
-            className="group mt-2 inline-flex items-center gap-3 rounded-full bg-[#FED853] px-7 py-3.5 text-sm font-bold text-black transition hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#FED853]"
+            className="group mt-6 inline-flex items-center gap-3 rounded-full bg-[#FED853] px-7 py-3.5 text-sm font-bold text-black transition hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#FED853]"
           >
             Start your application
             <ArrowDown
